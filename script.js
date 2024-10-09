@@ -1,3 +1,5 @@
+alert("Estoy enlazado para el examen");
+
 /* Paso 1: Variables */
 
 var nombre = "Luisito";
@@ -30,12 +32,12 @@ console.log(mensaje);
 
 let estudiaste = true;
 if (true) {
-  alert ("Luis, si estudiaste! Pasarás la materia.");
+  alert (nombre + ", si estudiaste! Pasarás la materia.");
 } else if (10 < 20) {
-  alert ("Luis, no sé de que hablas!");
+  alert (nombre + ", no sé de que hablas!");
 }
 else {
-  alert ("Luis, no estudiaste! Reprobarás la materia.");
+  alert (nombre + ", no estudiaste! Reprobarás la materia.");
 }
 
 /* Paso 3: Prompts */
@@ -47,7 +49,7 @@ console.log(tuNombre);
 nombre = prompt("¿Cuál es tu nombre?");
 console.log(tuNombre);
 
-alert ("Es un gusto conocerte,"+ "" + nombre);
+alert ("Es un gusto conocerte," + nombre);
 
 let tuEdad;
 
